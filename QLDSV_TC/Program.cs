@@ -16,12 +16,14 @@ namespace QLDSV_TC
         /// </summary>
         public static SqlConnection conn = new SqlConnection();
         public static String connstr;
-        public static String connstr_publicsher = "Data Source=KHANHVI;Initial Catalog=QLDSV_TC;Persist Security Info=True;User ID=sa;Password=123456";
+        public static String connstr_publicsher = "Data Source=DESKTOP-N44BQ15;Initial Catalog=QLDSV_TC;Persist Security Info=True;User ID=sa;Password=123456";
         public static SqlDataAdapter da;
         public static SqlDataReader myReader;
         public static String servername = "";
-        public static String servername1 = "THU-PC\\TINTIN";
-        public static String servername2 = "THU-PC\\SUSU";
+        //public static String servername1 = "THU-PC\\TINTIN";
+        //public static String servername2 = "THU-PC\\SUSU";
+        public static String servername1 = "DESKTOP-N44BQ15\\SERVER1";
+        public static String servername2 = "DESKTOP-N44BQ15\\SERVER2";
         public static String username = "";
         public static String mlogin = "";
         public static String password = "";
