@@ -16,7 +16,7 @@ namespace QLDSV_TC
         /// </summary>
         public static SqlConnection conn = new SqlConnection();
         public static String connstr;
-        public static String connstr_publicsher = "Data Source=NOVEMBER;Initial Catalog=QLDSV_TC;Persist Security Info=True;User ID=sa;Password=123456";
+        public static String connstr_publicsher = "Data Source=KHANHVI;Initial Catalog=QLDSV_TC;Persist Security Info=True;User ID=sa;Password=123456";
         public static SqlDataAdapter da;
         public static SqlDataReader myReader;
         public static String servername = "";
@@ -132,7 +132,7 @@ namespace QLDSV_TC
             Application.SetCompatibleTextRenderingDefault(false);
             formDangNhap = new FormDangNhap();
             formMain = new FormMain();
-            Application.Run(formDangNhap);
+            Application.Run(formMain);
         }
     }
 }
